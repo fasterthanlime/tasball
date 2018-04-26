@@ -92,4 +92,13 @@ export const animations = {
       opacity: 0;
     }
   `,
+
+  glow: keyframes`
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  `,
 };
